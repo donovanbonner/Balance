@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/2bcebaa4a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Balance - Home</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="images/balance-logo.png" class="logo">
+        <ul>
+          <li><img src="images/notification.png"></li>
+          <li><img src="images/inbox.png"></li>
+          <li><img src="images/video.png"></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png">
+          <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png">
+        </div>
+      </div>
+
+      <!---settings-menu-->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png">
+            <div>
+              <p>Balance <i class="fa-sharp fa-solid fa-circle-check"></i></p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="images/feedback.png">
+            <div>
+              <p>Provide Feedback</p>
+              <a href="#">Help us to improve the platform</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon">
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon">
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon">
+            <a href="#"
+              >Display & Accesibility <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon">
+            <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!--left-sidebar-->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png">Latest News</a>
+          <a href="#"><img src="images/friends.png">Friends</a>
+          <a href="#"><img src="images/communities.png">Communities</a>
+          <a href="#"><img src="images/fundraisers.png">Fundraisers</a>
+          <a href="#"><img src="images/watch.png">Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src="images/shortcut-1.png">Social Justice Podcast</a
+          >
+          <a href="#"
+            ><img src="images/shortcut-2.png">Inclusive Education Resource
+            Center</a
+          >
+          <a href="#"
+            ><img src="images/shortcut-3.png">Mental Health Support Network</a
+          >
+          <a href="#"><img src="images/shortcut-4.png">Advocacy Toolkits</a>
+        </div>
+      </div>
+
+      <!--main-content-->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="images/upload.png">
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="images/member-6.png">
+            <p>CommunityActivist</p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-7.png">
+            <p>GlobalHumanitarian</p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-8.png">
+            <p>InspiringVoices</p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-9.png">
+            <p>ActivistArt</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.png">
+            <div>
+              <p>Balance <i class="fa-sharp fa-solid fa-circle-check"></i></p>
+              <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="Share your thoughts, stories, and ideas for positive change..."
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png">Live Video</a>
+              <a href="#"><img src="images/photo.png">Photo/Video</a>
+              <a href="#"><img src="images/feeling.png">Feeling/Activivty</a>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/member-1.png">
+              <div>
+                <p>GreenAwareness</p>
+                <span>June 24 2023, 1:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+          </div>
+          <p class="post-text">
+            This powerful photo captures the devastating impact of environmental
+            injustice on marginalized communities. These areas bear the brunt of
+            pollution, toxic waste, and limited access to clean water and air.
+            It's time we address these inequalities and fight for a sustainable
+            and equitable future. <a href="#">#EnvironmentalJustice</a>
+            <a href="#">#InEquality</a>
+          </p>
+          <img src="images/feed-image-1.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png"> 101.2k</div>
+              <div><img src="images/comments.png"> 7.5k</div>
+              <div><img src="images/share.png"> 24k</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/member-1.png">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/member-2.png">
+              <div>
+                <p>EquityInEducation</p>
+                <span>June 24 2023, 2:17 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+          </div>
+          <p class="post-text">
+            Let's talk about the persistent issue of systemic racism in
+            education. Many students from minority backgrounds face unequal
+            opportunities, discriminatory discipline practices, and underfunded
+            schools. It's time to demand equitable resources, inclusive
+            curriculums, and an end to racial disparities in education.
+            <a href="#">#EducationForAll</a> <a href="#">#EquityInEducation</a>
+          </p>
+          <img src="images/feed-image-2.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png"> 15.2k</div>
+              <div><img src="images/comments.png"> 433</div>
+              <div><img src="images/share.png"> 3.8k</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/member-2.png">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/member-3.png">
+              <div>
+                <p>MentalWellnessMatters</p>
+                <span>June 26 2023, 5:54 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+          </div>
+          <p class="post-text">
+            Sharing personal stories, resources, and support for mental health.
+            Let's break the stigma and prioritize our well-being. You are not
+            alone.
+            <a href="#">#BreakTheStigma</a> <a href="#">#MentalHealthMatters</a>
+          </p>
+          <img src="images/feed-image-3.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png"> 12.4k</div>
+              <div><img src="images/comments.png"> 377</div>
+              <div><img src="images/share.png"> 4.7k</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/member-3.png">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/member-4.png">
+              <div>
+                <p>EqualWorkEqualPay</p>
+                <span>June 30 2023, 12:34 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+          </div>
+          <p class="post-text">
+            Fighting for equal pay and equal opportunities in the workplace.
+            Together, we can close the gender pay gap and build a more equitable
+            society.
+            <a href="#">#EqualPayNow</a> <a href="#">#GenderEquality</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div><img src="images/like-blue.png"> 17.4k</div>
+              <div><img src="images/comments.png"> 1.4k</div>
+              <div><img src="images/share.png"> 5k</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/member-4.png">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+
+      <!--right-sidebar-->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>15</h3>
+            <span>July</span>
+          </div>
+          <div class="right-event">
+            <h4>Equality Summit: Empowering Change</h4>
+            <p>
+              <i class="fa-solid fa-map-location-dot"></i>City Convention Center
+            </p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>20</h3>
+            <span>August</span>
+          </div>
+          <div class="right-event">
+            <h4>Climate Action Rally: Uniting for a Sustainable Future</h4>
+            <p><i class="fa-solid fa-map-location-dot"></i>Central Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="images/advertisement.png" class="sidebar-ads">
+
+        <div class="sidebar-title">
+          <h4>Conversations</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-6.png">
+          </div>
+          <p>CommunityActivist</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-5.png">
+          </div>
+          <p>ChangeMakersUnite</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-8.png">
+          </div>
+          <p>InspiringVoices</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2023 - Balance Inc.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
